@@ -1,0 +1,33 @@
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(0, 113, 157);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+  
+  .logo{
+    color: white;
+    font-size: 50px;
+    text-decoration:none;
+  }
+  
+  nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: end;
+    align-items: center;
+  }
+  
+  .nav_item{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .nav_item:hover{
+    color: rgb(1, 25, 47);
+  }
